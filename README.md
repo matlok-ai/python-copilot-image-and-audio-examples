@@ -1,11 +1,8 @@
-## Python Copilot Knowledge Graph Audio Examples
+# How to use the Multimodal Python Copilot Training Datasets
 
-These datasets contain an answer and a question mp3 narrating the text box from the image knowledge graphs below for training generative ai models on how writing python code by understanding an overview on:
+## Open Source Knowledge Graph Image and Audio Narration Examples
 
-- classes
-- base classes for inheritance and polymorphism
-- global functions
-- imports
+Below are image and audio (narrated mp3) samples extracted from the [matlok datasets](https://huggingface.co/matlok). These samples provide an overview for how the images look, and how the mp3s are structured with an answer and a question from the image's knowledge graph text box.
 
 ## Python Copilot Knowledge Graph Image Examples
 
@@ -111,13 +108,17 @@ These are samples from the [python copilot imports image knowledge graph dataset
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.import.tokenization_clip.CLIPTokenizer.png" alt="./png/transformers/src/transformers/models/clip/image.import.tokenization_clip.CLIPTokenizer.png" width="500"/>
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.import.tokenization_clip_fast.CLIPTokenizerFast.png" alt="./png/transformers/src/transformers/models/clip/image.import.tokenization_clip_fast.CLIPTokenizerFast.png" width="500"/>
 
-### AI Training Audio Data in Narrated Alpaca for complementing the Image Knowledge Graph Training Datasets
+### Audio AI Training Data in Narrated Alpaca for complementing the Image Knowledge Graph Training Datasets
+
+These are narrated mp3s generated from the image's text box within each knowledge graph. There is a different voice for the answer and question. These samples are for training generative ai models on how talking about how python code works by understanding an overview on:
+
+- classes
+- base classes for inheritance and polymorphism
+- global functions
+- imports
 
 Question | Answer
 --- | ---
-
-https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.class.alp.question.flash_llama_modeling.FlashLlamaAttention.mp3
-
 ![question.checkpointing.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/accelerate/examples/by_feature/audio.func.alp.question.checkpointing.mp3) | ![answer.checkpointing.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/accelerate/examples/by_feature/audio.func.alp.answer.checkpointing.mp3)
 ![question.fully_sharded_data_parallel.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/pytorch/torch/distributed/fsdp/audio.func.alp.question.fully_sharded_data_parallel.mp3) | ![answer.fully_sharded_data_parallel.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/pytorch/torch/distributed/fsdp/audio.func.alp.answer.fully_sharded_data_parallel.mp3)
 ![question.fully_sharded_data_parallel.FullyShardedDataParallel.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/pytorch/torch/distributed/fsdp/audio.base.alp.question.fully_sharded_data_parallel.FullyShardedDataParallel.mp3)
@@ -147,7 +148,6 @@ https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/
 ![question.engine.DeepSpeedEngine.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/deepspeed/deepspeed/runtime/audio.base.alp.question.engine.DeepSpeedEngine.mp3) | ![answer.engine.DeepSpeedEngine.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/deepspeed/deepspeed/runtime/audio.base.alp.answer.engine.DeepSpeedEngine.mp3)
 ![question.engine.EngineTimers.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/deepspeed/deepspeed/runtime/audio.base.alp.question.engine.EngineTimers.mp3) | ![answer.engine.EngineTimers.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/deepspeed/deepspeed/runtime/audio.base.alp.answer.engine.EngineTimers.mp3)
 ![question.flash_mixtral_modeling.MixtralModel.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.question.flash_mixtral_modeling.MixtralModel.mp3) | ![answer.flash_mixtral_modeling.MixtralModel.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.answer.flash_mixtral_modeling.MixtralModel.mp3)
-
 ![question.flash_mixtral_modeling.MixtralLayer.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.question.flash_mixtral_modeling.MixtralLayer.mp3) | ![answer.flash_mixtral_modeling.MixtralLayer.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.answer.flash_mixtral_modeling.MixtralLayer.mp3)
 ![question.flash_mixtral_modeling.MixtralAttention.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.question.flash_mixtral_modeling.MixtralAttention.mp3) | ![answer.flash_mixtral_modeling.MixtralAttention.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.answer.flash_mixtral_modeling.MixtralAttention.mp3)
 ![question.flash_mixtral_modeling.BlockSparseMoE.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.question.flash_mixtral_modeling.BlockSparseMoE.mp3) | ![answer.flash_mixtral_modeling.BlockSparseMoE.mp3](https://github.com/matlok-ops/python-copilot-images-and-audio-examples/raw/main/mp3/text-generation-inference/server/text_generation_server/models/custom_modeling/audio.base.alp.answer.flash_mixtral_modeling.BlockSparseMoE.mp3)
