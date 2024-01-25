@@ -1,5 +1,7 @@
 ## Multimodal Datasets for Training Python Copilots from Source Code Analysis
 
+<img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/static/matlok-multimodal-python-copilot-training-datasets-intro-1.jpg" alt="Multimodal Datasets for Training Python Copilots from Source Code Analysis" width="500"/>
+
 Below are image and audio (narrated mp3) samples extracted from the [matlok datasets](https://huggingface.co/datasets/matlok/multimodal-python-copilot-training-overview). These samples provide an overview for how the images look, and how the mp3s are structured with an answer and a question from the image's knowledge graph text box.
 
 Welcome to the matlok multimodal python copilot training datasets. This is an overview for our training and fine-tuning datasets found below:
