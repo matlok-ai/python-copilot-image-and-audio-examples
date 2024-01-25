@@ -1,10 +1,19 @@
-# How to use the Multimodal Python Copilot Training Datasets
+## Multimodal Datasets for Training Python Copilots from Source Code Analysis
 
-## Open Source Knowledge Graph Image and Audio Narration Examples
+Below are image and audio (narrated mp3) samples extracted from the [matlok datasets](https://huggingface.co/datasets/matlok/multimodal-python-copilot-training-overview). These samples provide an overview for how the images look, and how the mp3s are structured with an answer and a question from the image's knowledge graph text box.
 
-Below are image and audio (narrated mp3) samples extracted from the [matlok datasets](https://huggingface.co/matlok). These samples provide an overview for how the images look, and how the mp3s are structured with an answer and a question from the image's knowledge graph text box.
+Welcome to the matlok multimodal python copilot training datasets. This is an overview for our training and fine-tuning datasets found below:
 
-## Python Copilot Knowledge Graph Image Examples
+- ~2.35M unique source code rows
+- ~1.7M instruct alpaca yaml text rows
+- ~923K png knowledge graph images with alpaca text description
+- ~410K mp3s for ~2 years of continuous audio playtime
+- requires 1.2 TB storage on disk
+
+Please reach out if you find an issue or want help with a similar dataset. We want to make it easier to create and share large datasets:
+hello@matlok.ai
+
+## Python Copilot Training using Knowledge Graph Images
 
 These are knowledge graphs created for training generative ai models on how writing python CLIP transformer code by understanding an overview on:
 
@@ -13,9 +22,9 @@ These are knowledge graphs created for training generative ai models on how writ
 - global functions
 - imports
 
-### Class Definitions
+### Class - Knowledge Graph Images
 
-These are samples from the [python copilot class image knowledge graph dataset (300 GB on disk)](https://huggingface.co/datasets/matlok/python-image-copilot-training-using-class-knowledge-graphs). These images are an approach at teaching ai how to use software with a networkx graph saved as a png with an alpaca text box:
+These are samples from the [python copilot class image knowledge graph dataset (304 GB)](https://huggingface.co/datasets/matlok/python-image-copilot-training-using-class-knowledge-graphs). These images attempt to teach how to use software with a networkx graph saved as a png with an alpaca text box:
 
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.class.configuration_clip.CLIPConfig.png" alt="./png/transformers/src/transformers/models/clip/image.class.configuration_clip.CLIPConfig.png" width="500"/>
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.class.configuration_clip.CLIPOnnxConfig.png" alt="./png/transformers/src/transformers/models/clip/image.class.configuration_clip.CLIPOnnxConfig.png" width="500"/>
@@ -108,7 +117,7 @@ These are samples from the [python copilot imports image knowledge graph dataset
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.import.tokenization_clip.CLIPTokenizer.png" alt="./png/transformers/src/transformers/models/clip/image.import.tokenization_clip.CLIPTokenizer.png" width="500"/>
 <img src="https://raw.githubusercontent.com/matlok-ops/python-copilot-images-and-audio-examples/main/png/transformers/src/transformers/models/clip/image.import.tokenization_clip_fast.CLIPTokenizerFast.png" alt="./png/transformers/src/transformers/models/clip/image.import.tokenization_clip_fast.CLIPTokenizerFast.png" width="500"/>
 
-### Audio AI Training Data in Narrated Alpaca for complementing the Image Knowledge Graph Training Datasets
+## Python Copilot Training using Question and Answer Instruction Alpaca MP3s
 
 These are narrated mp3s generated from the image's text box within each knowledge graph. There is a different voice for the answer and question. These samples are for training generative ai models on how talking about how python code works by understanding an overview on:
 
