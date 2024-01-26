@@ -88,7 +88,7 @@ Here are samples from the [python copilot imports image knowledge graph dataset 
 
 Below are extracted question and answer mp3 samples. Each mp3 is either a recording of the alpaca question or answer. Question mp3s use a different speaker than the answer mp3 voice.
 
-Note: mobile browsers show a question mark due to markdown failing to show the **Listen** link vs a confusing **?** mark icon sorry!
+Note: mobile browsers have issues playing the mp3s and show a question mark due to markdown failing to show the **Listen** link vs a confusing **?** mark icon sorry!
 
 Question | Answer
 --- | ---
