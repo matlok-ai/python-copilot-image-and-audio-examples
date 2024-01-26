@@ -1,6 +1,13 @@
 ## Multimodal Datasets for Training Python Copilots from Source Code Analysis
 
-<img src="https://raw.githubusercontent.com/matlok-amatlok-aihon-copilot-image-and-audio-examples/main/static/matlok-multimodal-python-copilot-training-datasets-intro-1.jpg" alt="Multimodal Datasets for Training Python Copilots from Source Code Analysis" width="500" style="display: block; margin: auto;"/>
+<img src="https://raw.githubusercontent.com/matlok-ai/python-copilot-image-and-audio-examples/main/static/matlok-multimodal-python-copilot-training-datasets-intro-1.jpg" alt="Multimodal Datasets for Training Python Copilots from Source Code Analysis" width="500" style="display: block; margin: auto;"/>
+
+<p align="center">
+  <audio controls>
+    <source src="https://github.com/matlok-ai/python-copilot-image-and-audio-examples/raw/main/mp3/transformers/examples/pytorch/contrastive-image-text/audio.func.alp.question.run_clip.mp3" type="audio/mp3">
+    Play question.run_clip.mp3
+  </audio>
+</p>
 
 Below are image and audio (narrated mp3) samples extracted from the [matlok datasets](https://huggingface.co/datasets/matlok/multimodal-python-copilot-training-overview). These samples provide an overview for how the images look, and how the mp3s are structured with an answer and a question from the image's knowledge graph text box.
 
